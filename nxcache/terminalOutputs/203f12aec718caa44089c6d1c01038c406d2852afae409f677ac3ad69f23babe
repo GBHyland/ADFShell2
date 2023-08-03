@@ -1,0 +1,93 @@
+[1m[33mWarning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.[39m[22m
+Target for /alfresco http://localhost:8080
+Target for /activiti-app http://localhost:8180
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                              [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m                                                                                   [2m | [22mvendor                                                             [2m | [22m [96m13.27 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                     [2m | [22mmain                                                               [2m | [22m [96m10.14 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mscripts.js[39m[37m                                                                                  [2m | [22mscripts                                                            [2m | [22m[96m862.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m                                                                       [2m | [22mstyles                                                             [2m | [22m[96m351.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m                                                                                [2m | [22mpolyfills                                                          [2m | [22m[96m314.94 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                  [2m | [22mruntime                                                            [2m | [22m [96m15.02 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                                                                                           [2m | [22m[1mInitial Total[22m                                                      [2m | [22m [1m24.92 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                            [2m | [22m[1mNames[39m[37m[22m                                                              [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92madf-purple-green.css, adf-purple-green.js[39m[37m                                                   [2m | [22madf-purple-green                                                   [2m | [22m[96m315.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-pink-bluegrey.css, adf-pink-bluegrey.js[39m[37m                                                 [2m | [22madf-pink-bluegrey                                                  [2m | [22m[96m315.83 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-green-orange.css, adf-green-orange.js[39m[37m                                                   [2m | [22madf-green-orange                                                   [2m | [22m[96m315.74 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-green-purple.css, adf-green-purple.js[39m[37m                                                   [2m | [22madf-green-purple                                                   [2m | [22m[96m315.74 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-blue-orange.css, adf-blue-orange.js[39m[37m                                                     [2m | [22madf-blue-orange                                                    [2m | [22m[96m315.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-cyan-orange.css, adf-cyan-orange.js[39m[37m                                                     [2m | [22madf-cyan-orange                                                    [2m | [22m[96m315.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-cyan-purple.css, adf-cyan-purple.js[39m[37m                                                     [2m | [22madf-cyan-purple                                                    [2m | [22m[96m315.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-blue-purple.css, adf-blue-purple.js[39m[37m                                                     [2m | [22madf-blue-purple                                                    [2m | [22m[96m315.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92madf-indigo-pink.css, adf-i[39m[37mndigo-pink.js[39m[37m                                                     [2m | [22madf-indigo-pink                                                    [2m | [22m[96m315.30 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_cloud_community_community_module_ts.js[39m[37m                        [2m | [22mcomponents-cloud-community-community-module                        [2m | [22m [96m88.68 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_file-view_file-view_module_ts.js[39m[37m                              [2m | [22mcomponents-file-view-file-view-module                              [2m | [22m [96m65.00 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_settings_settings_module_ts.js[39m[37m                                [2m | [22mcomponents-settings-settings-module                                [2m | [22m [96m54.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_task-list-demo_task-list_module_ts.js[39m[37m                         [2m | [22mcomponents-task-list-demo-task-list-module                         [2m | [22m [96m44.43 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_content-node-selector_content-node-selector_module_ts.js[39m[37m      [2m | [22mcomponents-content-node-selector-content-node-selector-module      [2m | [22m [96m36.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_process-list-demo_process-list_module_ts.js[39m[37m                   [2m | [22mcomponents-process-list-demo-process-list-module                   [2m | [22m [96m31.90 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_datatable_datatable_module_ts.js[39m[37m                              [2m | [22mcomponents-datatable-datatable-module                              [2m | [22m [96m31.38 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_notifications_notifications_module_ts.js[39m[37m                      [2m | [22mcomponents-notifications-notifications-module        [39m[37m              [2m | [22m [96m26.78 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_pipes_pipes_module_ts.js[39m[37m                                      [2m | [22mcomponents-pipes-pipes-module                                      [2m | [22m [96m25.14 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_about_about_module_ts.js[39m[37m                                      [2m | [22mcomponents-about-about-module                                      [2m | [22m [96m23.60 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_card-view_card-view_module_ts.js[39m[37m                              [2m | [22mcomponents-card-view-card-view-module                              [2m | [22m [96m22.89 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_login_login_module_ts.js[39m[37m                                      [2m | [22mcomponents-login-login-module                                      [2m | [22m [96m22.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_trashcan_trashcan_module_ts.js[39m[37m                                [2m | [22mcomponents-trashcan-trashcan-module                                [2m | [22m [96m22.80 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_header-data_header-data_module_ts.js[39m[37m                          [2m | [22mcomponents-header-data-header-data-module                          [2m | [22m [96m20.70 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_document-list_extension-presets_extension-presets_module_ts.js[39m[37m[2m | [22mcomponents-document-list-extension-presets-extension-presets-module[2m | [22m [96m18.60 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_breadcrumb-demo_breadcrumb-demo_module_ts.js[39m[37m                  [2m | [22mcomponents-breadcrumb-demo-breadcrumb-demo-module                  [2m | [22m [96m18.44 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_config-editor_config-editor_module_[39m[37mts.js[39m[37m                      [2m | [22mcomponents-config-editor-config-editor-module                      [2m | [22m [96m15.72 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_tag_tag_module_ts.js[39m[37m                                          [2m | [22mcomponents-tag-tag-module                                          [2m | [22m [96m12.61 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_rich-text-editor_rich-text-editor_module_ts.js[39m[37m                [2m | [22mcomponents-rich-text-editor-rich-text-editor-module                [2m | [22m [96m12.59 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_files_custom-sources_module_ts.js[39m[37m                             [2m | [22mcomponents-files-custom-sources-module                             [2m | [22m [96m11.84 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_datatable_copy-content_datatable_module_ts.js[39m[37m                 [2m | [22mcomponents-datatable-copy-content-datatable-module                 [2m | [22m [96m11.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_social_social_module_ts.js[39m[37m                                    [2m | [22mcomponents-social-social-module                                    [2m | [22m [96m10.30 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_icons_icons_module_ts.js[39m[37m                                      [2m | [22mcomponents-icons-icons-module                                      [2m | [22m [96m10.10 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_sites_sites_module_ts.js[39m[37m                                      [2m | [22mcomponents-sites-sites-module                                      [2m | [22m  [96m9.70 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_webscript_webscript_module_ts.js[39m[37m                              [2m | [22mcomponents-webscript-webscript-module                              [2m | [22m  [96m9.42 k[39m[37mB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_datatable_drag-and-drop_datatable-dnd_module_ts.js[39m[37m            [2m | [22mcomponents-datatable-drag-and-drop-datatable-dnd-module            [2m | [22m  [96m9.05 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mdemo-shell_src_app_components_lazy-loading_lazy-loading_module_ts.js[39m[37m                        [2m | [22mcomponents-lazy-loading-lazy-loading-module                        [2m | [22m  [96m8.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-08-01T17:38:39.418Z[39m[37m[22m - Hash: [1m[37mcbad1edae5ed15a3[39m[37m[22m - Time: [1m[37m15850[39m[37m[22mms[0m[39m
+[1m[33m[39m[22m
+[1m[33m[0m[36m./node_modules/minimatch/minimatch.js[39m[33m[0m:[0m[93m6:11-26[39m[33m[0m - [0m[33mWarning: [39m[33m[0mModule not found: Error: Can't resolve 'path' in '/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/minimatch'[39m[22m
+[1m[33m[39m[22m
+[1m[33mBREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.[39m[22m
+[1m[33mThis is no longer the case. Verify if you need this module and configure a polyfill for it.[39m[22m
+[1m[33m[39m[22m
+[1m[33mIf you want to include a polyfill, you need to:[39m[22m
+[1m[33m	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'[39m[22m
+[1m[33m	- install 'path-browserify'[39m[22m
+[1m[33mIf you don't want to include a polyfill, you can use an empty module like this:[39m[22m
+[1m[33m	resolve.fallback: { "path": false }[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0m/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/lib/core/src/lib/viewer/components/img-viewer.component.ts depends on 'cropperjs'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0m/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/lib/process-services-cloud/src/lib/form/components/widgets/display-rich-text/display-rich-text.widget.ts depends on 'editorjs-html'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0m/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/lib/process-services-cloud/src/lib/rich-text-editor/rich-text-editor.component.ts depends on '@editorjs/editorjs'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0m/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/lib/process-services-cloud/src/lib/task/task-filters/components/edit-task-filters/edit-task-filter-cloud.component.ts depends on 'moment'. CommonJS or AMD dependencies can cause [39m[22m[1m[33moptimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0m/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/@editorjs/editorjs/types/configs/conversion-config.ts is part of the TypeScript compilation but it's unused.[39m[22m
+[1m[33mAdd only entry points to the 'files' or 'include' properties in your tsconfig.[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0m/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/angular-oauth2-oidc-jwks/fesm2015/angular-oauth2-oidc-jwks.mjs depends on 'jsrsasign'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0m/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/angular-oauth2-oidc/fesm2015/angular-oauth2-oidc.mjs depends on 'fast-sha256'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on 0.0.0.0:3000, open your browser on http://localhost:3000/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

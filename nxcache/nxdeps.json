@@ -1,0 +1,2737 @@
+{
+  "version": "5.0",
+  "deps": {
+    "@alfresco/js-api": "6.3.0-1054",
+    "@angular/animations": "14.1.3",
+    "@angular/cdk": "14.1.2",
+    "@angular/common": "14.1.3",
+    "@angular/compiler": "14.1.3",
+    "@angular/core": "14.1.3",
+    "@angular/forms": "14.1.3",
+    "@angular/material": "14.1.2",
+    "@angular/material-date-fns-adapter": "^14.1.2",
+    "@angular/material-moment-adapter": "14.1.2",
+    "@angular/platform-browser": "14.1.3",
+    "@angular/platform-browser-dynamic": "14.1.3",
+    "@angular/router": "14.1.3",
+    "@apollo/client": "^3.7.10",
+    "@editorjs/editorjs": "^2.26.5",
+    "@editorjs/header": "2.7.0",
+    "@editorjs/list": "1.8.0",
+    "@editorjs/underline": "1.1.0",
+    "@mat-datetimepicker/core": "^10.1.1",
+    "@mat-datetimepicker/moment": "^10.1.1",
+    "@ngx-translate/core": "^14.0.0",
+    "@storybook/core-server": "^6.5.16",
+    "angular-oauth2-oidc": "^13.0.1",
+    "angular-oauth2-oidc-jwks": "^15.0.1",
+    "apollo-angular": "^4.2.1",
+    "chart.js": "^4.3.0",
+    "cropperjs": "1.5.13",
+    "date-fns": "^2.30.0",
+    "dotenv-expand": "^5.1.0",
+    "editorjs-html": "3.4.2",
+    "editorjs-paragraph-with-alignment": "3.0.0",
+    "event-emitter": "^0.3.5",
+    "material-icons": "^1.13.9",
+    "minimatch-browser": "1.0.0",
+    "monaco-editor": "^0.33.0",
+    "ng2-charts": "^4.1.1",
+    "ngx-monaco-editor-v2": "^14.0.4",
+    "pdfjs-dist": "3.3.122",
+    "raphael": "2.3.0",
+    "rxjs": "6.6.6",
+    "subscriptions-transport-ws": "^0.11.0",
+    "tslib": "^2.4.1",
+    "zone.js": "~0.11.4",
+    "@angular-devkit/build-angular": "14.1.3",
+    "@angular-devkit/schematics": "~14.1.0",
+    "@angular-eslint/eslint-plugin": "15.2.1",
+    "@angular-eslint/eslint-plugin-template": "14.3.0",
+    "@angular-eslint/template-parser": "16.0.1",
+    "@angular/cli": "~14.1.0",
+    "@angular/compiler-cli": "14.1.3",
+    "@editorjs/code": "2.8.0",
+    "@editorjs/inline-code": "1.4.0",
+    "@editorjs/marker": "1.2.2",
+    "@nrwl/angular": "14.8.6",
+    "@nrwl/cli": "14.5.4",
+    "@nrwl/eslint-plugin-nx": "14.5.4",
+    "@nrwl/node": "14.5.4",
+    "@nrwl/storybook": "14.5.4",
+    "@nrwl/workspace": "14.5.4",
+    "@paperist/types-remark": "0.1.3",
+    "@playwright/test": "^1.35.1",
+    "@quanzo/change-font-size": "1.0.0",
+    "@storybook/addon-essentials": "6.5.10",
+    "@storybook/angular": "6.5.16",
+    "@storybook/builder-webpack5": "6.5.10",
+    "@storybook/manager-webpack5": "6.5.10",
+    "@types/event-emitter": "^0.3.3",
+    "@types/jasmine": "4.0.3",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/minimatch": "^3.0.3",
+    "@types/node": "18.0.0",
+    "@types/pdfjs-dist": "^2.10.378",
+    "@types/request": "^2.48.5",
+    "@types/selenium-webdriver": "^4.0.11",
+    "@typescript-eslint/eslint-plugin": "5.59.8",
+    "@typescript-eslint/parser": "5.38.1",
+    "@typescript-eslint/typescript-estree": "5.59.2",
+    "ajv": "^8.12.0",
+    "commander": "6.2.1",
+    "cspell": "^5.5.1",
+    "css-loader": "^6.7.4",
+    "dotenv": "16.1.3",
+    "editorjs-text-color-plugin": "1.13.1",
+    "eslint": "^8.36.0",
+    "eslint-plugin-ban": "^1.6.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsdoc": "40.1.0",
+    "eslint-plugin-license-header": "0.6.0",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-rxjs": "^5.0.3",
+    "eslint-plugin-unicorn": "^46.0.0",
+    "github-api": "^3.4.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.1.0",
+    "husky": "^7.0.4",
+    "jasmine-ajax": "4.0.0",
+    "jasmine-core": "4.6.0",
+    "jasmine-reporters": "^2.5.2",
+    "jasmine-spec-reporter": "7.0.0",
+    "js-yaml": "^4.0.0",
+    "karma": "^6.4.1",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "5.0.1",
+    "karma-jasmine-ajax": "0.1.13",
+    "karma-jasmine-html-reporter": "^2.0.0",
+    "karma-mocha-reporter": "2.2.5",
+    "license-checker": "^25.0.1",
+    "lint-staged": "^13.2.0",
+    "lite-server": "^2.6.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "nconf": "^0.12.0",
+    "ng-mocks": "^14.8.0",
+    "ng-packagr": "14.0.3",
+    "nx": "14.4.2",
+    "postcss": "^8.4.5",
+    "postcss-sass": "^0.5.0",
+    "protractor": "^7.0.0",
+    "protractor-retry-angular-cli": "^2.0.3",
+    "protractor-screenshoter-plugin": "0.10.3",
+    "protractor-smartrunner": "^2.0.0-beta6",
+    "rimraf": "^5.0.1",
+    "sass-loader": "13.3.2",
+    "selenium-webdriver": "4.1.0",
+    "stylelint": "^14.15.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^4.1.1",
+    "typescript": "4.7.4",
+    "webdriver-manager": "12.1.8",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.1.2"
+  },
+  "pathMappings": {
+    "@alfresco/adf-content-services": [
+      "lib/content-services"
+    ],
+    "@alfresco/adf-core": [
+      "lib/core"
+    ],
+    "@alfresco/adf-core/*": [
+      "lib/core/*/public-api.ts"
+    ],
+    "@alfresco/adf-core/api": [
+      "lib/core/api/src/index.ts"
+    ],
+    "@alfresco/adf-core/auth": [
+      "lib/core/auth/src/index.ts"
+    ],
+    "@alfresco/adf-core/breadcrumbs": [
+      "lib/core/breadcrumbs/src/index.ts"
+    ],
+    "@alfresco/adf-core/shell": [
+      "lib/core/shell/src/index.ts"
+    ],
+    "@alfresco/adf-extensions": [
+      "lib/extensions"
+    ],
+    "@alfresco/adf-insights": [
+      "lib/insights"
+    ],
+    "@alfresco/adf-process-services": [
+      "lib/process-services"
+    ],
+    "@alfresco/adf-process-services-cloud": [
+      "lib/process-services-cloud"
+    ],
+    "@alfresco/adf-testing": [
+      "lib/testing"
+    ],
+    "@alfresco/js-api": [
+      "node_modules/@alfresco/js-api"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "nodes": {
+    "process-services-cloud": {
+      "name": "process-services-cloud",
+      "type": "lib",
+      "data": {
+        "root": "lib/process-services-cloud",
+        "sourceRoot": "lib/process-services-cloud/src",
+        "projectType": "library",
+        "prefix": "adf-cloud",
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "options": {
+              "tsConfig": "lib/process-services-cloud/tsconfig.lib.json",
+              "project": "lib/process-services-cloud/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "project": "lib/process-services-cloud/ng-package.json",
+                "tsConfig": "lib/process-services-cloud/tsconfig.lib.prod.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "lib/process-services-cloud/src/test.ts",
+              "tsConfig": "lib/process-services-cloud/tsconfig.spec.json",
+              "karmaConfig": "lib/process-services-cloud/karma.conf.js",
+              "sourceMap": true,
+              "codeCoverage": true
+            }
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/process-services-cloud/**/*.ts",
+                "lib/process-services-cloud/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "storybook": {
+            "executor": "@storybook/angular:start-storybook",
+            "options": {
+              "port": 4400,
+              "browserTarget": "process-services-cloud:storybook",
+              "configDir": "lib/process-services-cloud/.storybook",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          },
+          "build-storybook": {
+            "executor": "@storybook/angular:build-storybook",
+            "options": {
+              "browserTarget": "process-services-cloud:build-storybook",
+              "configDir": "lib/process-services-cloud/.storybook",
+              "outputDir": "dist/storybook/process-services-cloud",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          },
+          "e2e-playwright": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx playwright test --config='e2e-playwright/playwright.config.ts'"
+                }
+              ]
+            }
+          },
+          "spellcheck": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx cspell 'lib/process-services-cloud/**/*.ts'"
+                }
+              ]
+            }
+          },
+          "stylelint": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx stylelint lib/process-services-cloud/**/*.scss --config stylelint-config.json"
+                }
+              ]
+            }
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/process-services-cloud",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "content-services": {
+      "name": "content-services",
+      "type": "lib",
+      "data": {
+        "root": "lib/content-services",
+        "sourceRoot": "lib/content-services/src",
+        "projectType": "library",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "options": {
+              "tsConfig": "lib/content-services/tsconfig.lib.json",
+              "project": "lib/content-services/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "project": "lib/content-services/ng-package.json",
+                "tsConfig": "lib/content-services/tsconfig.lib.prod.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "lib/content-services/src/test.ts",
+              "tsConfig": "lib/content-services/tsconfig.spec.json",
+              "karmaConfig": "lib/content-services/karma.conf.js",
+              "sourceMap": true,
+              "codeCoverage": true
+            }
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/content-services/**/*.ts",
+                "lib/content-services/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "storybook": {
+            "executor": "@storybook/angular:start-storybook",
+            "options": {
+              "port": 4400,
+              "browserTarget": "content-services:storybook",
+              "configDir": "lib/content-services/.storybook",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          },
+          "build-storybook": {
+            "executor": "@storybook/angular:build-storybook",
+            "options": {
+              "browserTarget": "content-services:build-storybook",
+              "configDir": "lib/content-services/.storybook",
+              "outputDir": "dist/storybook/content-services",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          },
+          "spellcheck": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx cspell 'lib/content-services/**/*.ts'"
+                }
+              ]
+            }
+          },
+          "stylelint": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx stylelint lib/content-services/**/*.scss --config stylelint-config.json"
+                }
+              ]
+            }
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/content-services",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "process-services": {
+      "name": "process-services",
+      "type": "lib",
+      "data": {
+        "root": "lib/process-services",
+        "sourceRoot": "lib/process-services",
+        "projectType": "library",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "options": {
+              "tsConfig": "lib/process-services/tsconfig.lib.json",
+              "project": "lib/process-services/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "project": "lib/process-services/ng-package.json",
+                "tsConfig": "lib/process-services/tsconfig.lib.prod.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "lib/process-services/src/test.ts",
+              "tsConfig": "lib/process-services/tsconfig.spec.json",
+              "karmaConfig": "lib/process-services/karma.conf.js",
+              "sourceMap": true,
+              "codeCoverage": true
+            }
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/process-services/**/*.ts",
+                "lib/process-services/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "spellcheck": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx cspell 'lib/process-services/**/*.ts'"
+                }
+              ]
+            },
+            "stylelint": {
+              "executor": "nx:run-commands",
+              "options": {
+                "commands": [
+                  {
+                    "command": "npx stylelint lib/process-services/**/*.scss --config stylelint-config.json"
+                  }
+                ]
+              }
+            }
+          },
+          "stylelint": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx stylelint lib/process-services-cloud/**/*.scss --config stylelint-config.json"
+                }
+              ]
+            }
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/process-services",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "eslint-angular": {
+      "name": "eslint-angular",
+      "type": "lib",
+      "data": {
+        "root": "lib/eslint-angular",
+        "sourceRoot": "lib/eslint-angular/src",
+        "projectType": "library",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@nrwl/node:webpack",
+            "options": {
+              "projectRoot": "lib/eslint-angular",
+              "outputPath": "dist/libs/eslint-plugin-eslint-angular",
+              "main": "lib/eslint-angular/index.ts",
+              "generatePackageJson": true,
+              "tsConfig": "lib/eslint-angular/tsconfig.lib.prod.json"
+            },
+            "configurations": {
+              "production": {
+                "projectRoot": "lib/eslint-angular",
+                "outputPath": "dist/libs/eslint-plugin-eslint-angular",
+                "main": "lib/eslint-angular/index.ts",
+                "generatePackageJson": true,
+                "tsConfig": "lib/eslint-angular/tsconfig.lib.prod.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/eslint-angular/**/*.ts"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "bundle": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "echo testing bundle created"
+                }
+              ]
+            }
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/eslint-plugin-eslint-angular",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "extensions": {
+      "name": "extensions",
+      "type": "lib",
+      "data": {
+        "root": "lib/extensions",
+        "sourceRoot": "lib/extensions/src",
+        "projectType": "library",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "options": {
+              "tsConfig": "lib/extensions/tsconfig.lib.json",
+              "project": "lib/extensions/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "lib/extensions/tsconfig.lib.prod.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "lib/extensions/src/test.ts",
+              "tsConfig": "lib/extensions/tsconfig.spec.json",
+              "karmaConfig": "lib/extensions/karma.conf.js",
+              "sourceMap": true,
+              "codeCoverage": true
+            }
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/extensions/**/*.ts",
+                "lib/extensions/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck"
+            ]
+          },
+          "spellcheck": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx cspell 'lib/extensions/**/*.ts'"
+                }
+              ]
+            }
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/extensions",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "insights": {
+      "name": "insights",
+      "type": "lib",
+      "data": {
+        "root": "lib/insights",
+        "sourceRoot": "lib/insights/src",
+        "projectType": "library",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "options": {
+              "tsConfig": "lib/insights/tsconfig.lib.json",
+              "project": "lib/insights/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "project": "lib/insights/ng-package.json",
+                "tsConfig": "lib/insights/tsconfig.lib.prod.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "lib/insights/src/test.ts",
+              "tsConfig": "lib/insights/tsconfig.spec.json",
+              "karmaConfig": "lib/insights/karma.conf.js",
+              "sourceMap": true,
+              "codeCoverage": true
+            }
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/insights/**/*.ts",
+                "lib/insights/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "spellcheck": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx cspell 'lib/insights/**/*.ts'"
+                }
+              ]
+            }
+          },
+          "stylelint": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx stylelint lib/insights/**/*.scss --config stylelint-config.json"
+                }
+              ]
+            }
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/insights",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "testing": {
+      "name": "testing",
+      "type": "lib",
+      "data": {
+        "root": "lib/testing",
+        "sourceRoot": "lib/testing/src",
+        "projectType": "library",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@nrwl/node:webpack",
+            "options": {
+              "projectRoot": "lib/testing",
+              "outputPath": "dist/libs/testing",
+              "main": "lib/testing/index.ts",
+              "generatePackageJson": true,
+              "tsConfig": "lib/testing/tsconfig.lib.prod.json",
+              "additionalEntryPoints": [
+                {
+                  "entryName": "shared",
+                  "entryPath": "/lib/testing/src/lib/shared/index.ts"
+                }
+              ]
+            },
+            "configurations": {
+              "production": {
+                "projectRoot": "lib/testing",
+                "outputPath": "dist/libs/testing",
+                "main": "lib/testing/index.ts",
+                "generatePackageJson": true,
+                "tsConfig": "lib/testing/tsconfig.lib.prod.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/testing/**/*.ts",
+                "lib/testing/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "bundle": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "echo testing bundle created"
+                }
+              ]
+            },
+            "dependsOn": [
+              "copyToNodeModules"
+            ]
+          },
+          "copyToNodeModules": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "rm -rf ./node_modules/@alfresco/adf-testing/ && mkdir -p ./node_modules/@alfresco/adf-testing/ &&  cp -R ./dist/libs/testing/* ./node_modules/@alfresco/adf-testing/"
+                }
+              ]
+            },
+            "dependsOn": [
+              {
+                "projects": "self",
+                "target": "build"
+              }
+            ]
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/testing",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "stories": {
+      "name": "stories",
+      "type": "lib",
+      "data": {
+        "root": "lib/stories",
+        "sourceRoot": "lib/stories",
+        "projectType": "library",
+        "targets": {
+          "storybook": {
+            "executor": "@storybook/angular:start-storybook",
+            "options": {
+              "port": 4400,
+              "browserTarget": "stories:storybook",
+              "configDir": "lib/stories/.storybook",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          },
+          "build-storybook": {
+            "executor": "@storybook/angular:build-storybook",
+            "options": {
+              "browserTarget": "stories:build-storybook",
+              "configDir": "lib/stories/.storybook",
+              "outputDir": "dist/storybook/stories",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "demoshell": {
+      "name": "demoshell",
+      "type": "app",
+      "data": {
+        "root": "demo-shell",
+        "sourceRoot": "demo-shell/src",
+        "projectType": "application",
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:browser",
+            "options": {
+              "allowedCommonJsDependencies": [
+                "minimatch",
+                "minimatch-browser",
+                "superagent",
+                "event-emitter",
+                "brace-expansion",
+                "zen-observable",
+                "subscriptions-transport-ws",
+                "d",
+                "chart.js"
+              ],
+              "outputPath": "dist/demo-shell",
+              "index": "demo-shell/src/index.html",
+              "main": "demo-shell/src/main.ts",
+              "tsConfig": "tsconfig.dev.json",
+              "polyfills": "demo-shell/src/polyfills.ts",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "lib"
+                ]
+              },
+              "assets": [
+                "demo-shell/src/assets",
+                "demo-shell/src/favicon-96x96.png",
+                "demo-shell/src/app.config.json",
+                {
+                  "glob": "**/*",
+                  "input": "demo-shell/src/assets",
+                  "output": "/assets"
+                },
+                {
+                  "glob": "app.config.json",
+                  "input": "demo-shell/src",
+                  "output": "/"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "demo-shell/resources",
+                  "output": "/resources"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "demo-shell/src/app/components/lazy-loading/i18n",
+                  "output": "/resources/lazy-loading/i18n"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/core/src/lib/assets",
+                  "output": "/assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/process-services/src/lib/assets",
+                  "output": "/assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/process-services-cloud/src/lib/assets",
+                  "output": "/assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/content-services/src/lib/assets",
+                  "output": "/assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/core/src/lib/i18n",
+                  "output": "/assets/adf-core/i18n"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/content-services/src/lib/i18n",
+                  "output": "/assets/adf-content-services/i18n"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/process-services/src/lib/i18n",
+                  "output": "/assets/adf-process-services/i18n"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/process-services-cloud/src/lib/i18n",
+                  "output": "/assets/adf-process-services-cloud/i18n"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "lib/insights/src/lib/i18n",
+                  "output": "/assets/adf-insights/i18n"
+                },
+                {
+                  "glob": "pdf.worker.min.js",
+                  "input": "node_modules/pdfjs-dist/build",
+                  "output": "/"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "node_modules/monaco-editor",
+                  "output": "/assets/monaco/"
+                }
+              ],
+              "styles": [
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-blue-orange.scss",
+                  "bundleName": "adf-blue-orange"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-blue-purple.scss",
+                  "bundleName": "adf-blue-purple"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-cyan-orange.scss",
+                  "bundleName": "adf-cyan-orange"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-cyan-purple.scss",
+                  "bundleName": "adf-cyan-purple"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-green-orange.scss",
+                  "bundleName": "adf-green-orange"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-green-purple.scss",
+                  "bundleName": "adf-green-purple"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-indigo-pink.scss",
+                  "bundleName": "adf-indigo-pink"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-pink-bluegrey.scss",
+                  "bundleName": "adf-pink-bluegrey"
+                },
+                {
+                  "inject": false,
+                  "input": "lib/core/src/lib/styles/prebuilt/adf-purple-green.scss",
+                  "bundleName": "adf-purple-green"
+                },
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ],
+              "scripts": [
+                "node_modules/pdfjs-dist/build/pdf.js",
+                "node_modules/pdfjs-dist/web/pdf_viewer.js",
+                "node_modules/raphael/raphael.min.js",
+                "node_modules/moment/min/moment.min.js"
+              ],
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "buildOptimizer": false,
+              "sourceMap": true,
+              "optimization": false,
+              "namedChunks": true
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "12kb"
+                  }
+                ],
+                "optimization": true,
+                "outputHashing": "all",
+                "sourceMap": false,
+                "namedChunks": false,
+                "extractLicenses": true,
+                "buildOptimizer": true,
+                "verbose": false,
+                "fileReplacements": [
+                  {
+                    "replace": "demo-shell/src/environments/environment.ts",
+                    "with": "demo-shell/src/environments/environment.prod.ts"
+                  }
+                ]
+              },
+              "canary": {
+                "fileReplacements": [
+                  {
+                    "replace": "demo-shell/src/environments/environment.ts",
+                    "with": "demo-shell/src/environments/environment.canary.ts"
+                  }
+                ]
+              },
+              "e2e": {
+                "budgets": [
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "6kb"
+                  }
+                ],
+                "optimization": true,
+                "outputHashing": "all",
+                "sourceMap": false,
+                "namedChunks": false,
+                "extractLicenses": true,
+                "buildOptimizer": true,
+                "verbose": false,
+                "fileReplacements": [
+                  {
+                    "replace": "demo-shell/src/environments/environment.ts",
+                    "with": "demo-shell/src/environments/environment.e2e.ts"
+                  }
+                ]
+              }
+            },
+            "defaultConfiguration": "",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "options": {
+              "browserTarget": "demoshell:build",
+              "host": "0.0.0.0",
+              "port": 3000,
+              "proxyConfig": "demo-shell/proxy.conf.js",
+              "disableHostCheck": true
+            },
+            "configurations": {
+              "production": {
+                "browserTarget": "demoshell:build:production"
+              },
+              "canary": {
+                "browserTarget": "demoshell:build:canary"
+              },
+              "e2e": {
+                "browserTarget": "demoshell:build:e2e"
+              }
+            }
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "demo-shell/**/*.ts",
+                "demo-shell/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "spellcheck": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx cspell 'demo-shell/**/*.ts'"
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "demoshell-e2e": {
+      "name": "demoshell-e2e",
+      "type": "e2e",
+      "data": {
+        "root": "demo-shell",
+        "sourceRoot": "./demo-shell",
+        "projectType": "application",
+        "targets": {
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "options": {
+              "proxyConfig": "./e2e/proxy.conf.js",
+              "browserTarget": "dev:build",
+              "port": 3000
+            },
+            "configurations": {
+              "production": {
+                "browserTarget": "dev:build:production"
+              }
+            }
+          },
+          "e2e": {
+            "executor": "@angular-devkit/build-angular:protractor",
+            "options": {
+              "protractorConfig": "./e2e/protractor.conf.js",
+              "devServerTarget": "lib-e2e-test:serve"
+            }
+          }
+        },
+        "tags": [],
+        "files": [
+          {
+            "file": "demo-shell/proxy.conf.js",
+            "hash": "68317feefae788e908d3a1852e6c17cd447b63e5",
+            "deps": [
+              "npm:dotenv"
+            ]
+          },
+          {
+            "file": "demo-shell/src/app.config.json",
+            "hash": "d54ced5a3efb7e6745bbc89658f7696de8b322a1"
+          },
+          {
+            "file": "demo-shell/src/app/components/files/files.component.html",
+            "hash": "4a9a6dde233b928f7111612ff2f991dadab73827"
+          },
+          {
+            "file": "demo-shell/src/app/components/app-layout/app-layout.component.ts",
+            "hash": "c8191dceab962ba3057d9f0e38a3c9fc32d0acea",
+            "deps": [
+              "npm:@angular/core",
+              "core",
+              "npm:rxjs",
+              "npm:@angular/material"
+            ]
+          },
+          {
+            "file": "demo-shell/src/app/components/files/files.component.ts",
+            "hash": "a3640db5b5529dbb4ef03d3d60faf09d8f02c5f3",
+            "deps": [
+              "npm:@angular/core",
+              "npm:@angular/common",
+              "npm:@angular/material",
+              "npm:@angular/router",
+              "npm:@alfresco/js-api",
+              "core",
+              "content-services",
+              "process-services",
+              "npm:rxjs"
+            ]
+          },
+          {
+            "file": "demo-shell/src/app/app.routes.ts",
+            "hash": "e8da560068f7351a1afe73a1811520a9eb0b4e29",
+            "deps": [
+              "npm:@angular/router",
+              "core"
+            ]
+          }
+        ]
+      }
+    },
+    "core": {
+      "name": "core",
+      "type": "lib",
+      "data": {
+        "projectType": "library",
+        "root": "lib/core",
+        "sourceRoot": "lib/core",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "options": {
+              "tsConfig": "lib/core/tsconfig.lib.json",
+              "project": "lib/core/ng-package.json"
+            },
+            "dependsOn": [
+              "^build",
+              "license"
+            ],
+            "configurations": {
+              "production": {
+                "project": "lib/core/ng-package.json",
+                "tsConfig": "lib/core/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "lib/core/tsconfig.lib.json"
+              }
+            },
+            "defaultConfiguration": "production"
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "lib/core/test.ts",
+              "tsConfig": "lib/core/tsconfig.spec.json",
+              "karmaConfig": "lib/core/karma.conf.js",
+              "sourceMap": true,
+              "codeCoverage": true,
+              "styles": [
+                "demo-shell/src/styles.scss"
+              ]
+            }
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/core/**/*.ts",
+                "lib/core/**/*.html",
+                "lib/core/api/**/*.ts",
+                "lib/core/api/**/*.html",
+                "lib/core/auth/**/*.ts",
+                "lib/core/auth/**/*.html",
+                "lib/core/shell/**/*.ts",
+                "lib/core/shell/**/*.html",
+                "lib/core/breadcrumbs/**/*.ts",
+                "lib/core/breadcrumbs/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "storybook": {
+            "executor": "@storybook/angular:start-storybook",
+            "options": {
+              "port": 4400,
+              "browserTarget": "core:storybook",
+              "configDir": "lib/core/.storybook",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          },
+          "build-storybook": {
+            "executor": "@storybook/angular:build-storybook",
+            "options": {
+              "browserTarget": "core:build-storybook",
+              "configDir": "lib/core/.storybook",
+              "outputDir": "dist/storybook/core",
+              "compodoc": false,
+              "styles": [
+                "demo-shell/src/assets/fonts/muli/muli.css",
+                "demo-shell/src/styles.scss",
+                "demo-shell/src/custom-style-dev.scss",
+                "node_modules/cropperjs/dist/cropper.min.css",
+                "node_modules/pdfjs-dist/web/pdf_viewer.css"
+              ]
+            },
+            "configurations": {
+              "ci": {
+                "quiet": true
+              }
+            }
+          },
+          "spellcheck": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx cspell 'lib/core/**/*.ts'"
+                }
+              ]
+            }
+          },
+          "stylelint": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx stylelint lib/core/**/*.scss --config stylelint-config.json"
+                }
+              ]
+            }
+          },
+          "license": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx license-checker --production  --failOn 'GPL;GPL-2.0' > licenses.txt"
+                }
+              ]
+            }
+          },
+          "pretheme": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "npx webpack -- --config ./lib/config/webpack.style.js --progress --profile --bail"
+                }
+              ]
+            }
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/core",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    },
+    "cli": {
+      "name": "cli",
+      "type": "lib",
+      "data": {
+        "root": "lib/cli",
+        "sourceRoot": "lib/cli",
+        "projectType": "library",
+        "prefix": "adf",
+        "targets": {
+          "build": {
+            "executor": "@nrwl/workspace:run-commands",
+            "options": {
+              "commands": [
+                "cd lib/cli && npm i && npm run dist"
+              ]
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "lib/cli/tsconfig.json"
+              }
+            },
+            "defaultConfiguration": "production",
+            "dependsOn": [
+              "^build",
+              {
+                "target": "build",
+                "projects": "dependencies"
+              }
+            ]
+          },
+          "develop": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "develop"
+            }
+          },
+          "dist": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dist"
+            }
+          },
+          "bundle": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "echo cli bundle created"
+                }
+              ]
+            },
+            "dependsOn": [
+              "copyToNodeModules"
+            ]
+          },
+          "copyToNodeModules": {
+            "executor": "nx:run-commands",
+            "options": {
+              "commands": [
+                {
+                  "command": "rm -rf ./node_modules/@alfresco/adf-cli/ && mkdir -p ./node_modules/@alfresco/adf-cli/ && cp -R ./dist/libs/cli/* ./node_modules/@alfresco/adf-cli/"
+                }
+              ]
+            },
+            "dependsOn": [
+              {
+                "projects": "self",
+                "target": "build"
+              }
+            ]
+          },
+          "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+              "lintFilePatterns": [
+                "lib/cli/**/*.ts",
+                "lib/cli/**/*.html"
+              ]
+            },
+            "dependsOn": [
+              "spellcheck",
+              "stylelint"
+            ]
+          },
+          "npm-publish": {
+            "executor": "nx:run-commands",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "cwd": "dist/libs/cli",
+              "commands": [
+                {
+                  "command": "npm publish --tag {args.tag}",
+                  "forwardAllArgs": true
+                }
+              ]
+            }
+          }
+        },
+        "tags": [],
+        "files": []
+      }
+    }
+  },
+  "externalNodes": {
+    "npm:@alfresco/js-api": {
+      "type": "npm",
+      "name": "npm:@alfresco/js-api",
+      "data": {
+        "version": "6.3.0-1054",
+        "packageName": "@alfresco/js-api"
+      }
+    },
+    "npm:@angular/animations": {
+      "type": "npm",
+      "name": "npm:@angular/animations",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/animations"
+      }
+    },
+    "npm:@angular/cdk": {
+      "type": "npm",
+      "name": "npm:@angular/cdk",
+      "data": {
+        "version": "14.1.2",
+        "packageName": "@angular/cdk"
+      }
+    },
+    "npm:@angular/common": {
+      "type": "npm",
+      "name": "npm:@angular/common",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/common"
+      }
+    },
+    "npm:@angular/compiler": {
+      "type": "npm",
+      "name": "npm:@angular/compiler",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/compiler"
+      }
+    },
+    "npm:@angular/core": {
+      "type": "npm",
+      "name": "npm:@angular/core",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/core"
+      }
+    },
+    "npm:@angular/forms": {
+      "type": "npm",
+      "name": "npm:@angular/forms",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/forms"
+      }
+    },
+    "npm:@angular/material": {
+      "type": "npm",
+      "name": "npm:@angular/material",
+      "data": {
+        "version": "14.1.2",
+        "packageName": "@angular/material"
+      }
+    },
+    "npm:@angular/material-date-fns-adapter": {
+      "type": "npm",
+      "name": "npm:@angular/material-date-fns-adapter",
+      "data": {
+        "version": "^14.1.2",
+        "packageName": "@angular/material-date-fns-adapter"
+      }
+    },
+    "npm:@angular/material-moment-adapter": {
+      "type": "npm",
+      "name": "npm:@angular/material-moment-adapter",
+      "data": {
+        "version": "14.1.2",
+        "packageName": "@angular/material-moment-adapter"
+      }
+    },
+    "npm:@angular/platform-browser": {
+      "type": "npm",
+      "name": "npm:@angular/platform-browser",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/platform-browser"
+      }
+    },
+    "npm:@angular/platform-browser-dynamic": {
+      "type": "npm",
+      "name": "npm:@angular/platform-browser-dynamic",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/platform-browser-dynamic"
+      }
+    },
+    "npm:@angular/router": {
+      "type": "npm",
+      "name": "npm:@angular/router",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/router"
+      }
+    },
+    "npm:@apollo/client": {
+      "type": "npm",
+      "name": "npm:@apollo/client",
+      "data": {
+        "version": "^3.7.10",
+        "packageName": "@apollo/client"
+      }
+    },
+    "npm:@editorjs/editorjs": {
+      "type": "npm",
+      "name": "npm:@editorjs/editorjs",
+      "data": {
+        "version": "^2.26.5",
+        "packageName": "@editorjs/editorjs"
+      }
+    },
+    "npm:@editorjs/header": {
+      "type": "npm",
+      "name": "npm:@editorjs/header",
+      "data": {
+        "version": "2.7.0",
+        "packageName": "@editorjs/header"
+      }
+    },
+    "npm:@editorjs/list": {
+      "type": "npm",
+      "name": "npm:@editorjs/list",
+      "data": {
+        "version": "1.8.0",
+        "packageName": "@editorjs/list"
+      }
+    },
+    "npm:@editorjs/underline": {
+      "type": "npm",
+      "name": "npm:@editorjs/underline",
+      "data": {
+        "version": "1.1.0",
+        "packageName": "@editorjs/underline"
+      }
+    },
+    "npm:@mat-datetimepicker/core": {
+      "type": "npm",
+      "name": "npm:@mat-datetimepicker/core",
+      "data": {
+        "version": "^10.1.1",
+        "packageName": "@mat-datetimepicker/core"
+      }
+    },
+    "npm:@mat-datetimepicker/moment": {
+      "type": "npm",
+      "name": "npm:@mat-datetimepicker/moment",
+      "data": {
+        "version": "^10.1.1",
+        "packageName": "@mat-datetimepicker/moment"
+      }
+    },
+    "npm:@ngx-translate/core": {
+      "type": "npm",
+      "name": "npm:@ngx-translate/core",
+      "data": {
+        "version": "^14.0.0",
+        "packageName": "@ngx-translate/core"
+      }
+    },
+    "npm:@storybook/core-server": {
+      "type": "npm",
+      "name": "npm:@storybook/core-server",
+      "data": {
+        "version": "^6.5.16",
+        "packageName": "@storybook/core-server"
+      }
+    },
+    "npm:angular-oauth2-oidc": {
+      "type": "npm",
+      "name": "npm:angular-oauth2-oidc",
+      "data": {
+        "version": "^13.0.1",
+        "packageName": "angular-oauth2-oidc"
+      }
+    },
+    "npm:angular-oauth2-oidc-jwks": {
+      "type": "npm",
+      "name": "npm:angular-oauth2-oidc-jwks",
+      "data": {
+        "version": "^15.0.1",
+        "packageName": "angular-oauth2-oidc-jwks"
+      }
+    },
+    "npm:apollo-angular": {
+      "type": "npm",
+      "name": "npm:apollo-angular",
+      "data": {
+        "version": "^4.2.1",
+        "packageName": "apollo-angular"
+      }
+    },
+    "npm:chart.js": {
+      "type": "npm",
+      "name": "npm:chart.js",
+      "data": {
+        "version": "^4.3.0",
+        "packageName": "chart.js"
+      }
+    },
+    "npm:cropperjs": {
+      "type": "npm",
+      "name": "npm:cropperjs",
+      "data": {
+        "version": "1.5.13",
+        "packageName": "cropperjs"
+      }
+    },
+    "npm:date-fns": {
+      "type": "npm",
+      "name": "npm:date-fns",
+      "data": {
+        "version": "^2.30.0",
+        "packageName": "date-fns"
+      }
+    },
+    "npm:dotenv-expand": {
+      "type": "npm",
+      "name": "npm:dotenv-expand",
+      "data": {
+        "version": "^5.1.0",
+        "packageName": "dotenv-expand"
+      }
+    },
+    "npm:editorjs-html": {
+      "type": "npm",
+      "name": "npm:editorjs-html",
+      "data": {
+        "version": "3.4.2",
+        "packageName": "editorjs-html"
+      }
+    },
+    "npm:editorjs-paragraph-with-alignment": {
+      "type": "npm",
+      "name": "npm:editorjs-paragraph-with-alignment",
+      "data": {
+        "version": "3.0.0",
+        "packageName": "editorjs-paragraph-with-alignment"
+      }
+    },
+    "npm:event-emitter": {
+      "type": "npm",
+      "name": "npm:event-emitter",
+      "data": {
+        "version": "^0.3.5",
+        "packageName": "event-emitter"
+      }
+    },
+    "npm:material-icons": {
+      "type": "npm",
+      "name": "npm:material-icons",
+      "data": {
+        "version": "^1.13.9",
+        "packageName": "material-icons"
+      }
+    },
+    "npm:minimatch-browser": {
+      "type": "npm",
+      "name": "npm:minimatch-browser",
+      "data": {
+        "version": "1.0.0",
+        "packageName": "minimatch-browser"
+      }
+    },
+    "npm:monaco-editor": {
+      "type": "npm",
+      "name": "npm:monaco-editor",
+      "data": {
+        "version": "^0.33.0",
+        "packageName": "monaco-editor"
+      }
+    },
+    "npm:ng2-charts": {
+      "type": "npm",
+      "name": "npm:ng2-charts",
+      "data": {
+        "version": "^4.1.1",
+        "packageName": "ng2-charts"
+      }
+    },
+    "npm:ngx-monaco-editor-v2": {
+      "type": "npm",
+      "name": "npm:ngx-monaco-editor-v2",
+      "data": {
+        "version": "^14.0.4",
+        "packageName": "ngx-monaco-editor-v2"
+      }
+    },
+    "npm:pdfjs-dist": {
+      "type": "npm",
+      "name": "npm:pdfjs-dist",
+      "data": {
+        "version": "3.3.122",
+        "packageName": "pdfjs-dist"
+      }
+    },
+    "npm:raphael": {
+      "type": "npm",
+      "name": "npm:raphael",
+      "data": {
+        "version": "2.3.0",
+        "packageName": "raphael"
+      }
+    },
+    "npm:rxjs": {
+      "type": "npm",
+      "name": "npm:rxjs",
+      "data": {
+        "version": "6.6.6",
+        "packageName": "rxjs"
+      }
+    },
+    "npm:subscriptions-transport-ws": {
+      "type": "npm",
+      "name": "npm:subscriptions-transport-ws",
+      "data": {
+        "version": "^0.11.0",
+        "packageName": "subscriptions-transport-ws"
+      }
+    },
+    "npm:tslib": {
+      "type": "npm",
+      "name": "npm:tslib",
+      "data": {
+        "version": "^2.4.1",
+        "packageName": "tslib"
+      }
+    },
+    "npm:zone.js": {
+      "type": "npm",
+      "name": "npm:zone.js",
+      "data": {
+        "version": "~0.11.4",
+        "packageName": "zone.js"
+      }
+    },
+    "npm:@angular-devkit/build-angular": {
+      "type": "npm",
+      "name": "npm:@angular-devkit/build-angular",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular-devkit/build-angular"
+      }
+    },
+    "npm:@angular-devkit/schematics": {
+      "type": "npm",
+      "name": "npm:@angular-devkit/schematics",
+      "data": {
+        "version": "~14.1.0",
+        "packageName": "@angular-devkit/schematics"
+      }
+    },
+    "npm:@angular-eslint/eslint-plugin": {
+      "type": "npm",
+      "name": "npm:@angular-eslint/eslint-plugin",
+      "data": {
+        "version": "15.2.1",
+        "packageName": "@angular-eslint/eslint-plugin"
+      }
+    },
+    "npm:@angular-eslint/eslint-plugin-template": {
+      "type": "npm",
+      "name": "npm:@angular-eslint/eslint-plugin-template",
+      "data": {
+        "version": "14.3.0",
+        "packageName": "@angular-eslint/eslint-plugin-template"
+      }
+    },
+    "npm:@angular-eslint/template-parser": {
+      "type": "npm",
+      "name": "npm:@angular-eslint/template-parser",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "@angular-eslint/template-parser"
+      }
+    },
+    "npm:@angular/cli": {
+      "type": "npm",
+      "name": "npm:@angular/cli",
+      "data": {
+        "version": "~14.1.0",
+        "packageName": "@angular/cli"
+      }
+    },
+    "npm:@angular/compiler-cli": {
+      "type": "npm",
+      "name": "npm:@angular/compiler-cli",
+      "data": {
+        "version": "14.1.3",
+        "packageName": "@angular/compiler-cli"
+      }
+    },
+    "npm:@editorjs/code": {
+      "type": "npm",
+      "name": "npm:@editorjs/code",
+      "data": {
+        "version": "2.8.0",
+        "packageName": "@editorjs/code"
+      }
+    },
+    "npm:@editorjs/inline-code": {
+      "type": "npm",
+      "name": "npm:@editorjs/inline-code",
+      "data": {
+        "version": "1.4.0",
+        "packageName": "@editorjs/inline-code"
+      }
+    },
+    "npm:@editorjs/marker": {
+      "type": "npm",
+      "name": "npm:@editorjs/marker",
+      "data": {
+        "version": "1.2.2",
+        "packageName": "@editorjs/marker"
+      }
+    },
+    "npm:@nrwl/angular": {
+      "type": "npm",
+      "name": "npm:@nrwl/angular",
+      "data": {
+        "version": "14.8.6",
+        "packageName": "@nrwl/angular"
+      }
+    },
+    "npm:@nrwl/cli": {
+      "type": "npm",
+      "name": "npm:@nrwl/cli",
+      "data": {
+        "version": "14.5.4",
+        "packageName": "@nrwl/cli"
+      }
+    },
+    "npm:@nrwl/eslint-plugin-nx": {
+      "type": "npm",
+      "name": "npm:@nrwl/eslint-plugin-nx",
+      "data": {
+        "version": "14.5.4",
+        "packageName": "@nrwl/eslint-plugin-nx"
+      }
+    },
+    "npm:@nrwl/node": {
+      "type": "npm",
+      "name": "npm:@nrwl/node",
+      "data": {
+        "version": "14.5.4",
+        "packageName": "@nrwl/node"
+      }
+    },
+    "npm:@nrwl/storybook": {
+      "type": "npm",
+      "name": "npm:@nrwl/storybook",
+      "data": {
+        "version": "14.5.4",
+        "packageName": "@nrwl/storybook"
+      }
+    },
+    "npm:@nrwl/workspace": {
+      "type": "npm",
+      "name": "npm:@nrwl/workspace",
+      "data": {
+        "version": "14.5.4",
+        "packageName": "@nrwl/workspace"
+      }
+    },
+    "npm:@paperist/types-remark": {
+      "type": "npm",
+      "name": "npm:@paperist/types-remark",
+      "data": {
+        "version": "0.1.3",
+        "packageName": "@paperist/types-remark"
+      }
+    },
+    "npm:@playwright/test": {
+      "type": "npm",
+      "name": "npm:@playwright/test",
+      "data": {
+        "version": "^1.35.1",
+        "packageName": "@playwright/test"
+      }
+    },
+    "npm:@quanzo/change-font-size": {
+      "type": "npm",
+      "name": "npm:@quanzo/change-font-size",
+      "data": {
+        "version": "1.0.0",
+        "packageName": "@quanzo/change-font-size"
+      }
+    },
+    "npm:@storybook/addon-essentials": {
+      "type": "npm",
+      "name": "npm:@storybook/addon-essentials",
+      "data": {
+        "version": "6.5.10",
+        "packageName": "@storybook/addon-essentials"
+      }
+    },
+    "npm:@storybook/angular": {
+      "type": "npm",
+      "name": "npm:@storybook/angular",
+      "data": {
+        "version": "6.5.16",
+        "packageName": "@storybook/angular"
+      }
+    },
+    "npm:@storybook/builder-webpack5": {
+      "type": "npm",
+      "name": "npm:@storybook/builder-webpack5",
+      "data": {
+        "version": "6.5.10",
+        "packageName": "@storybook/builder-webpack5"
+      }
+    },
+    "npm:@storybook/manager-webpack5": {
+      "type": "npm",
+      "name": "npm:@storybook/manager-webpack5",
+      "data": {
+        "version": "6.5.10",
+        "packageName": "@storybook/manager-webpack5"
+      }
+    },
+    "npm:@types/event-emitter": {
+      "type": "npm",
+      "name": "npm:@types/event-emitter",
+      "data": {
+        "version": "^0.3.3",
+        "packageName": "@types/event-emitter"
+      }
+    },
+    "npm:@types/jasmine": {
+      "type": "npm",
+      "name": "npm:@types/jasmine",
+      "data": {
+        "version": "4.0.3",
+        "packageName": "@types/jasmine"
+      }
+    },
+    "npm:@types/jasminewd2": {
+      "type": "npm",
+      "name": "npm:@types/jasminewd2",
+      "data": {
+        "version": "~2.0.2",
+        "packageName": "@types/jasminewd2"
+      }
+    },
+    "npm:@types/minimatch": {
+      "type": "npm",
+      "name": "npm:@types/minimatch",
+      "data": {
+        "version": "^3.0.3",
+        "packageName": "@types/minimatch"
+      }
+    },
+    "npm:@types/node": {
+      "type": "npm",
+      "name": "npm:@types/node",
+      "data": {
+        "version": "18.0.0",
+        "packageName": "@types/node"
+      }
+    },
+    "npm:@types/pdfjs-dist": {
+      "type": "npm",
+      "name": "npm:@types/pdfjs-dist",
+      "data": {
+        "version": "^2.10.378",
+        "packageName": "@types/pdfjs-dist"
+      }
+    },
+    "npm:@types/request": {
+      "type": "npm",
+      "name": "npm:@types/request",
+      "data": {
+        "version": "^2.48.5",
+        "packageName": "@types/request"
+      }
+    },
+    "npm:@types/selenium-webdriver": {
+      "type": "npm",
+      "name": "npm:@types/selenium-webdriver",
+      "data": {
+        "version": "^4.0.11",
+        "packageName": "@types/selenium-webdriver"
+      }
+    },
+    "npm:@typescript-eslint/eslint-plugin": {
+      "type": "npm",
+      "name": "npm:@typescript-eslint/eslint-plugin",
+      "data": {
+        "version": "5.59.8",
+        "packageName": "@typescript-eslint/eslint-plugin"
+      }
+    },
+    "npm:@typescript-eslint/parser": {
+      "type": "npm",
+      "name": "npm:@typescript-eslint/parser",
+      "data": {
+        "version": "5.38.1",
+        "packageName": "@typescript-eslint/parser"
+      }
+    },
+    "npm:@typescript-eslint/typescript-estree": {
+      "type": "npm",
+      "name": "npm:@typescript-eslint/typescript-estree",
+      "data": {
+        "version": "5.59.2",
+        "packageName": "@typescript-eslint/typescript-estree"
+      }
+    },
+    "npm:ajv": {
+      "type": "npm",
+      "name": "npm:ajv",
+      "data": {
+        "version": "^8.12.0",
+        "packageName": "ajv"
+      }
+    },
+    "npm:commander": {
+      "type": "npm",
+      "name": "npm:commander",
+      "data": {
+        "version": "6.2.1",
+        "packageName": "commander"
+      }
+    },
+    "npm:cspell": {
+      "type": "npm",
+      "name": "npm:cspell",
+      "data": {
+        "version": "^5.5.1",
+        "packageName": "cspell"
+      }
+    },
+    "npm:css-loader": {
+      "type": "npm",
+      "name": "npm:css-loader",
+      "data": {
+        "version": "^6.7.4",
+        "packageName": "css-loader"
+      }
+    },
+    "npm:dotenv": {
+      "type": "npm",
+      "name": "npm:dotenv",
+      "data": {
+        "version": "16.1.3",
+        "packageName": "dotenv"
+      }
+    },
+    "npm:editorjs-text-color-plugin": {
+      "type": "npm",
+      "name": "npm:editorjs-text-color-plugin",
+      "data": {
+        "version": "1.13.1",
+        "packageName": "editorjs-text-color-plugin"
+      }
+    },
+    "npm:eslint": {
+      "type": "npm",
+      "name": "npm:eslint",
+      "data": {
+        "version": "^8.36.0",
+        "packageName": "eslint"
+      }
+    },
+    "npm:eslint-plugin-ban": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-ban",
+      "data": {
+        "version": "^1.6.0",
+        "packageName": "eslint-plugin-ban"
+      }
+    },
+    "npm:eslint-plugin-import": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-import",
+      "data": {
+        "version": "2.27.5",
+        "packageName": "eslint-plugin-import"
+      }
+    },
+    "npm:eslint-plugin-jsdoc": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-jsdoc",
+      "data": {
+        "version": "40.1.0",
+        "packageName": "eslint-plugin-jsdoc"
+      }
+    },
+    "npm:eslint-plugin-license-header": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-license-header",
+      "data": {
+        "version": "0.6.0",
+        "packageName": "eslint-plugin-license-header"
+      }
+    },
+    "npm:eslint-plugin-prefer-arrow": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-prefer-arrow",
+      "data": {
+        "version": "1.2.3",
+        "packageName": "eslint-plugin-prefer-arrow"
+      }
+    },
+    "npm:eslint-plugin-rxjs": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-rxjs",
+      "data": {
+        "version": "^5.0.3",
+        "packageName": "eslint-plugin-rxjs"
+      }
+    },
+    "npm:eslint-plugin-unicorn": {
+      "type": "npm",
+      "name": "npm:eslint-plugin-unicorn",
+      "data": {
+        "version": "^46.0.0",
+        "packageName": "eslint-plugin-unicorn"
+      }
+    },
+    "npm:github-api": {
+      "type": "npm",
+      "name": "npm:github-api",
+      "data": {
+        "version": "^3.4.0",
+        "packageName": "github-api"
+      }
+    },
+    "npm:graphql": {
+      "type": "npm",
+      "name": "npm:graphql",
+      "data": {
+        "version": "^16.6.0",
+        "packageName": "graphql"
+      }
+    },
+    "npm:graphql-request": {
+      "type": "npm",
+      "name": "npm:graphql-request",
+      "data": {
+        "version": "^6.1.0",
+        "packageName": "graphql-request"
+      }
+    },
+    "npm:husky": {
+      "type": "npm",
+      "name": "npm:husky",
+      "data": {
+        "version": "^7.0.4",
+        "packageName": "husky"
+      }
+    },
+    "npm:jasmine-ajax": {
+      "type": "npm",
+      "name": "npm:jasmine-ajax",
+      "data": {
+        "version": "4.0.0",
+        "packageName": "jasmine-ajax"
+      }
+    },
+    "npm:jasmine-core": {
+      "type": "npm",
+      "name": "npm:jasmine-core",
+      "data": {
+        "version": "4.6.0",
+        "packageName": "jasmine-core"
+      }
+    },
+    "npm:jasmine-reporters": {
+      "type": "npm",
+      "name": "npm:jasmine-reporters",
+      "data": {
+        "version": "^2.5.2",
+        "packageName": "jasmine-reporters"
+      }
+    },
+    "npm:jasmine-spec-reporter": {
+      "type": "npm",
+      "name": "npm:jasmine-spec-reporter",
+      "data": {
+        "version": "7.0.0",
+        "packageName": "jasmine-spec-reporter"
+      }
+    },
+    "npm:js-yaml": {
+      "type": "npm",
+      "name": "npm:js-yaml",
+      "data": {
+        "version": "^4.0.0",
+        "packageName": "js-yaml"
+      }
+    },
+    "npm:karma": {
+      "type": "npm",
+      "name": "npm:karma",
+      "data": {
+        "version": "^6.4.1",
+        "packageName": "karma"
+      }
+    },
+    "npm:karma-chrome-launcher": {
+      "type": "npm",
+      "name": "npm:karma-chrome-launcher",
+      "data": {
+        "version": "~3.2.0",
+        "packageName": "karma-chrome-launcher"
+      }
+    },
+    "npm:karma-coverage": {
+      "type": "npm",
+      "name": "npm:karma-coverage",
+      "data": {
+        "version": "~2.2.0",
+        "packageName": "karma-coverage"
+      }
+    },
+    "npm:karma-jasmine": {
+      "type": "npm",
+      "name": "npm:karma-jasmine",
+      "data": {
+        "version": "5.0.1",
+        "packageName": "karma-jasmine"
+      }
+    },
+    "npm:karma-jasmine-ajax": {
+      "type": "npm",
+      "name": "npm:karma-jasmine-ajax",
+      "data": {
+        "version": "0.1.13",
+        "packageName": "karma-jasmine-ajax"
+      }
+    },
+    "npm:karma-jasmine-html-reporter": {
+      "type": "npm",
+      "name": "npm:karma-jasmine-html-reporter",
+      "data": {
+        "version": "^2.0.0",
+        "packageName": "karma-jasmine-html-reporter"
+      }
+    },
+    "npm:karma-mocha-reporter": {
+      "type": "npm",
+      "name": "npm:karma-mocha-reporter",
+      "data": {
+        "version": "2.2.5",
+        "packageName": "karma-mocha-reporter"
+      }
+    },
+    "npm:license-checker": {
+      "type": "npm",
+      "name": "npm:license-checker",
+      "data": {
+        "version": "^25.0.1",
+        "packageName": "license-checker"
+      }
+    },
+    "npm:lint-staged": {
+      "type": "npm",
+      "name": "npm:lint-staged",
+      "data": {
+        "version": "^13.2.0",
+        "packageName": "lint-staged"
+      }
+    },
+    "npm:lite-server": {
+      "type": "npm",
+      "name": "npm:lite-server",
+      "data": {
+        "version": "^2.6.1",
+        "packageName": "lite-server"
+      }
+    },
+    "npm:mini-css-extract-plugin": {
+      "type": "npm",
+      "name": "npm:mini-css-extract-plugin",
+      "data": {
+        "version": "^1.6.0",
+        "packageName": "mini-css-extract-plugin"
+      }
+    },
+    "npm:nconf": {
+      "type": "npm",
+      "name": "npm:nconf",
+      "data": {
+        "version": "^0.12.0",
+        "packageName": "nconf"
+      }
+    },
+    "npm:ng-mocks": {
+      "type": "npm",
+      "name": "npm:ng-mocks",
+      "data": {
+        "version": "^14.8.0",
+        "packageName": "ng-mocks"
+      }
+    },
+    "npm:ng-packagr": {
+      "type": "npm",
+      "name": "npm:ng-packagr",
+      "data": {
+        "version": "14.0.3",
+        "packageName": "ng-packagr"
+      }
+    },
+    "npm:nx": {
+      "type": "npm",
+      "name": "npm:nx",
+      "data": {
+        "version": "14.4.2",
+        "packageName": "nx"
+      }
+    },
+    "npm:postcss": {
+      "type": "npm",
+      "name": "npm:postcss",
+      "data": {
+        "version": "^8.4.5",
+        "packageName": "postcss"
+      }
+    },
+    "npm:postcss-sass": {
+      "type": "npm",
+      "name": "npm:postcss-sass",
+      "data": {
+        "version": "^0.5.0",
+        "packageName": "postcss-sass"
+      }
+    },
+    "npm:protractor": {
+      "type": "npm",
+      "name": "npm:protractor",
+      "data": {
+        "version": "^7.0.0",
+        "packageName": "protractor"
+      }
+    },
+    "npm:protractor-retry-angular-cli": {
+      "type": "npm",
+      "name": "npm:protractor-retry-angular-cli",
+      "data": {
+        "version": "^2.0.3",
+        "packageName": "protractor-retry-angular-cli"
+      }
+    },
+    "npm:protractor-screenshoter-plugin": {
+      "type": "npm",
+      "name": "npm:protractor-screenshoter-plugin",
+      "data": {
+        "version": "0.10.3",
+        "packageName": "protractor-screenshoter-plugin"
+      }
+    },
+    "npm:protractor-smartrunner": {
+      "type": "npm",
+      "name": "npm:protractor-smartrunner",
+      "data": {
+        "version": "^2.0.0-beta6",
+        "packageName": "protractor-smartrunner"
+      }
+    },
+    "npm:rimraf": {
+      "type": "npm",
+      "name": "npm:rimraf",
+      "data": {
+        "version": "^5.0.1",
+        "packageName": "rimraf"
+      }
+    },
+    "npm:sass-loader": {
+      "type": "npm",
+      "name": "npm:sass-loader",
+      "data": {
+        "version": "13.3.2",
+        "packageName": "sass-loader"
+      }
+    },
+    "npm:selenium-webdriver": {
+      "type": "npm",
+      "name": "npm:selenium-webdriver",
+      "data": {
+        "version": "4.1.0",
+        "packageName": "selenium-webdriver"
+      }
+    },
+    "npm:stylelint": {
+      "type": "npm",
+      "name": "npm:stylelint",
+      "data": {
+        "version": "^14.15.0",
+        "packageName": "stylelint"
+      }
+    },
+    "npm:stylelint-config-standard-scss": {
+      "type": "npm",
+      "name": "npm:stylelint-config-standard-scss",
+      "data": {
+        "version": "^3.0.0",
+        "packageName": "stylelint-config-standard-scss"
+      }
+    },
+    "npm:ts-node": {
+      "type": "npm",
+      "name": "npm:ts-node",
+      "data": {
+        "version": "^10.4.0",
+        "packageName": "ts-node"
+      }
+    },
+    "npm:tsconfig-paths": {
+      "type": "npm",
+      "name": "npm:tsconfig-paths",
+      "data": {
+        "version": "^4.1.1",
+        "packageName": "tsconfig-paths"
+      }
+    },
+    "npm:typescript": {
+      "type": "npm",
+      "name": "npm:typescript",
+      "data": {
+        "version": "4.7.4",
+        "packageName": "typescript"
+      }
+    },
+    "npm:webdriver-manager": {
+      "type": "npm",
+      "name": "npm:webdriver-manager",
+      "data": {
+        "version": "12.1.8",
+        "packageName": "webdriver-manager"
+      }
+    },
+    "npm:webpack": {
+      "type": "npm",
+      "name": "npm:webpack",
+      "data": {
+        "version": "^5.81.0",
+        "packageName": "webpack"
+      }
+    },
+    "npm:webpack-cli": {
+      "type": "npm",
+      "name": "npm:webpack-cli",
+      "data": {
+        "version": "^5.1.2",
+        "packageName": "webpack-cli"
+      }
+    }
+  },
+  "dependencies": {
+    "process-services-cloud": [],
+    "content-services": [],
+    "process-services": [],
+    "eslint-angular": [],
+    "extensions": [],
+    "insights": [],
+    "testing": [],
+    "stories": [],
+    "demoshell": [],
+    "demoshell-e2e": [
+      {
+        "source": "demoshell-e2e",
+        "target": "npm:dotenv",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "npm:@angular/core",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "core",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "npm:@angular/material",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "npm:@angular/router",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "npm:@alfresco/js-api",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "content-services",
+        "type": "static"
+      },
+      {
+        "source": "demoshell-e2e",
+        "target": "process-services",
+        "type": "static"
+      }
+    ],
+    "core": [],
+    "cli": []
+  }
+}

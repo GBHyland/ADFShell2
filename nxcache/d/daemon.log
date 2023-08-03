@@ -1,0 +1,296 @@
+[NX Daemon Server] - 2023-08-01T14:15:39.901Z - Server stopped because: "received process SIGTERM"
+[NX Daemon Server] - 2023-08-01T14:15:40.184Z - Started listening on: /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EEXIST: file already exists /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/@nrwl/workspace/node_modules/nx/src/daemon/server/server.js:192:24
+    at new Promise (<anonymous>)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/@nrwl/workspace/node_modules/nx/src/daemon/server/server.js:190:16
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/tslib/tslib.js:164:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EEXIST',
+  errno: -17,
+  syscall: 'listen',
+  address: '/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock',
+  port: -1
+}
+
+Node.js v18.17.0
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/nx/src/daemon/server/server.js:192:24
+    at new Promise (<anonymous>)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/nx/src/daemon/server/server.js:190:16
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/tslib/tslib.js:164:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock',
+  port: -1
+}
+
+Node.js v18.17.0
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/@nrwl/cli/node_modules/nx/src/daemon/server/server.js:192:24
+    at new Promise (<anonymous>)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/@nrwl/cli/node_modules/nx/src/daemon/server/server.js:190:16
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/tslib/tslib.js:164:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock',
+  port: -1
+}
+
+Node.js v18.17.0
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1734:21)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1898:5)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/@nrwl/node/node_modules/nx/src/daemon/server/server.js:192:24
+    at new Promise (<anonymous>)
+    at /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/@nrwl/node/node_modules/nx/src/daemon/server/server.js:190:16
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/node_modules/tslib/tslib.js:164:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1778:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '/Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell/nxcache/d/d.sock',
+  port: -1
+}
+
+Node.js v18.17.0
+[NX Daemon Server] - 2023-08-01T14:15:40.193Z - [WATCHER]: Subscribed to changes within: /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell
+[NX Daemon Server] - 2023-08-01T14:15:40.195Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:15:40.197Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:15:40.229Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:15:40.339Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:15:40.340Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:15:40.531Z - Time taken for 'hash changed files from watcher' 0.03325009346008301ms
+[NX Daemon Server] - 2023-08-01T14:15:40.533Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:15:40.534Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:15:40.534Z - Time taken for 'total for creating and serializing project graph' 0.2604999542236328ms
+[NX Daemon Server] - 2023-08-01T14:15:40.535Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:15:40.536Z - Time taken for 'total for creating and serializing project graph' 0.09516716003417969ms
+[NX Daemon Server] - 2023-08-01T14:15:40.536Z - [REQUEST]: Closed Connection to Client (40973 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:15:40.537Z - Time taken for 'total for server response' 0.6172499656677246ms
+[NX Daemon Server] - 2023-08-01T14:15:40.537Z - [REQUEST]: Closed Connection to Client (40973 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:15:40.537Z - Time taken for 'total for server response' 1.4669580459594727ms
+[NX Daemon Server] - 2023-08-01T14:15:40.537Z - [REQUEST]: Closed Connection to Client (40973 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:15:40.537Z - Time taken for 'total for server response' 1.7501251697540283ms
+[NX Daemon Server] - 2023-08-01T14:15:40.537Z - [REQUEST]: Closed Connection to Client (40973 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:15:40.537Z - Time taken for 'total for server response' 2.005167007446289ms
+[NX Daemon Server] - 2023-08-01T14:15:40.564Z - Time taken for 'init hashing' 332.7690830230713ms
+[NX Daemon Server] - 2023-08-01T14:15:40.568Z - [REQUEST]: Closed Connection to Client (40973 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:15:40.568Z - Time taken for 'total for server response' 32.25141716003418ms
+[NX Daemon Server] - 2023-08-01T14:15:41.036Z - Time taken for 'total execution time for createProjectGraph()' 691.6868748664856ms
+[NX Daemon Server] - 2023-08-01T14:15:41.039Z - [REQUEST]: Closed Connection to Client (1196079 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:15:41.039Z - Time taken for 'total for server response' 502.65841698646545ms
+[NX Daemon Server] - 2023-08-01T14:15:41.657Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2023-08-01T14:15:41.772Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:15:41.776Z - Time taken for 'hash changed files from watcher' 13.000082969665527ms
+[NX Daemon Server] - 2023-08-01T14:20:22.660Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:20:22.905Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:20:22.914Z - Time taken for 'hash changed files from watcher' 41.87958383560181ms
+[NX Daemon Server] - 2023-08-01T14:21:16.728Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:21:17.222Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:21:17.227Z - Time taken for 'hash changed files from watcher' 90.49966716766357ms
+[NX Daemon Server] - 2023-08-01T14:21:32.838Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:21:33.722Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:21:33.729Z - Time taken for 'hash changed files from watcher' 80.93175005912781ms
+[NX Daemon Server] - 2023-08-01T14:21:49.426Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:21:51.074Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:21:51.077Z - Time taken for 'hash changed files from watcher' 44.089792013168335ms
+[NX Daemon Server] - 2023-08-01T14:22:15.068Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:22:18.317Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:22:18.320Z - Time taken for 'hash changed files from watcher' 45.915709018707275ms
+[NX Daemon Server] - 2023-08-01T14:22:31.795Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:22:35.794Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:22:38.247Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:22:38.252Z - Time taken for 'hash changed files from watcher' 50.90545892715454ms
+[NX Daemon Server] - 2023-08-01T14:22:42.052Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T14:22:48.500Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:22:48.505Z - Time taken for 'hash changed files from watcher' 45.78745913505554ms
+[NX Daemon Server] - 2023-08-01T14:23:10.300Z - [WATCHER]: demo-shell/src/app.config.json was modified
+[NX Daemon Server] - 2023-08-01T14:23:12.000Z - [WATCHER]: demo-shell/src/app.config.json was modified
+[NX Daemon Server] - 2023-08-01T14:23:16.764Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T14:23:16.767Z - Time taken for 'hash changed files from watcher' 61.57487511634827ms
+[NX Daemon Server] - 2023-08-01T14:24:12.250Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:24:12.251Z - Time taken for 'total for creating and serializing project graph' 0.6994168758392334ms
+[NX Daemon Server] - 2023-08-01T14:24:12.252Z - [REQUEST]: Closed Connection to Client (41492 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:24:12.252Z - Time taken for 'total for server response' 1.9593749046325684ms
+[NX Daemon Server] - 2023-08-01T14:24:12.397Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T14:24:12.398Z - Time taken for 'total for creating and serializing project graph' 0.3134171962738037ms
+[NX Daemon Server] - 2023-08-01T14:24:12.398Z - [REQUEST]: Closed Connection to Client (41492 bytes transferred)
+[NX Daemon Server] - 2023-08-01T14:24:12.398Z - Time taken for 'total for server response' 0.8499171733856201ms
+[NX Daemon Server] - 2023-08-01T15:03:25.827Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T15:03:25.828Z - Time taken for 'total for creating and serializing project graph' 0.9845418930053711ms
+[NX Daemon Server] - 2023-08-01T15:03:25.829Z - [REQUEST]: Closed Connection to Client (41492 bytes transferred)
+[NX Daemon Server] - 2023-08-01T15:03:25.831Z - Time taken for 'total for server response' 2.2890830039978027ms
+[NX Daemon Server] - 2023-08-01T15:03:25.979Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T15:03:25.980Z - Time taken for 'total for creating and serializing project graph' 0.35808300971984863ms
+[NX Daemon Server] - 2023-08-01T15:03:25.980Z - [REQUEST]: Closed Connection to Client (41492 bytes transferred)
+[NX Daemon Server] - 2023-08-01T15:03:25.981Z - Time taken for 'total for server response' 0.9612910747528076ms
+[NX Daemon Server] - 2023-08-01T15:03:37.919Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T15:03:37.920Z - Time taken for 'total for creating and serializing project graph' 0.7165420055389404ms
+[NX Daemon Server] - 2023-08-01T15:03:37.920Z - [REQUEST]: Closed Connection to Client (41492 bytes transferred)
+[NX Daemon Server] - 2023-08-01T15:03:37.920Z - Time taken for 'total for server response' 1.3537919521331787ms
+[NX Daemon Server] - 2023-08-01T15:03:38.061Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T15:03:38.062Z - Time taken for 'total for creating and serializing project graph' 0.35016703605651855ms
+[NX Daemon Server] - 2023-08-01T15:03:38.062Z - [REQUEST]: Closed Connection to Client (41492 bytes transferred)
+[NX Daemon Server] - 2023-08-01T15:03:38.063Z - Time taken for 'total for server response' 0.8718748092651367ms
+[NX Daemon Server] - 2023-08-01T16:49:04.363Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T16:49:04.509Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T16:49:04.516Z - Time taken for 'hash changed files from watcher' 39.93345808982849ms
+[NX Daemon Server] - 2023-08-01T16:49:10.477Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T16:49:10.739Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T16:49:10.742Z - Time taken for 'hash changed files from watcher' 58.76354098320007ms
+[NX Daemon Server] - 2023-08-01T16:52:17.597Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T16:52:18.053Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T16:52:18.056Z - Time taken for 'hash changed files from watcher' 53.432915925979614ms
+[NX Daemon Server] - 2023-08-01T16:53:09.117Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T16:53:09.953Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T16:53:09.956Z - Time taken for 'hash changed files from watcher' 34.01854181289673ms
+[NX Daemon Server] - 2023-08-01T16:59:51.139Z - [WATCHER]: demo-shell/src/app/components/app-layout/app-layout.component.ts was modified
+[NX Daemon Server] - 2023-08-01T16:59:52.789Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T16:59:52.796Z - Time taken for 'hash changed files from watcher' 44.54633402824402ms
+[NX Daemon Server] - 2023-08-01T17:00:36.647Z - [WATCHER]: demo-shell/src/app/components/app-layout/app-layout.component.ts was modified
+[NX Daemon Server] - 2023-08-01T17:00:39.893Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:00:39.898Z - Time taken for 'hash changed files from watcher' 43.7942910194397ms
+[NX Daemon Server] - 2023-08-01T17:00:56.171Z - [WATCHER]: demo-shell/src/app/components/app-layout/app-layout.component.ts was modified
+[NX Daemon Server] - 2023-08-01T17:01:02.611Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:01:02.616Z - Time taken for 'hash changed files from watcher' 37.88612484931946ms
+[NX Daemon Server] - 2023-08-01T17:03:10.952Z - [WATCHER]: demo-shell/src/app/components/files/files.component.ts was modified
+[NX Daemon Server] - 2023-08-01T17:03:17.418Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:03:17.425Z - Time taken for 'hash changed files from watcher' 59.48062491416931ms
+[NX Daemon Server] - 2023-08-01T17:03:32.426Z - [WATCHER]: demo-shell/src/app/components/files/files.component.ts was modified
+[NX Daemon Server] - 2023-08-01T17:03:38.868Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:03:38.876Z - Time taken for 'hash changed files from watcher' 39.59337496757507ms
+[NX Daemon Server] - 2023-08-01T17:10:06.754Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:10:13.199Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:10:13.207Z - Time taken for 'hash changed files from watcher' 39.64625000953674ms
+[NX Daemon Server] - 2023-08-01T17:12:48.903Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:12:55.365Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:12:55.370Z - Time taken for 'hash changed files from watcher' 54.84150004386902ms
+[NX Daemon Server] - 2023-08-01T17:14:53.406Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:14:59.855Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:14:59.859Z - Time taken for 'hash changed files from watcher' 46.302124977111816ms
+[NX Daemon Server] - 2023-08-01T17:16:07.851Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:16:14.308Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:16:14.311Z - Time taken for 'hash changed files from watcher' 54.69104194641113ms
+[NX Daemon Server] - 2023-08-01T17:17:24.852Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:17:31.310Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:17:31.318Z - Time taken for 'hash changed files from watcher' 55.690792083740234ms
+[NX Daemon Server] - 2023-08-01T17:18:51.067Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:18:57.528Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:18:57.532Z - Time taken for 'hash changed files from watcher' 58.17416715621948ms
+[NX Daemon Server] - 2023-08-01T17:20:06.254Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:20:12.718Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:20:12.723Z - Time taken for 'hash changed files from watcher' 59.95662498474121ms
+[NX Daemon Server] - 2023-08-01T17:20:35.451Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:20:41.900Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:20:41.903Z - Time taken for 'hash changed files from watcher' 46.29645895957947ms
+[NX Daemon Server] - 2023-08-01T17:21:00.539Z - [WATCHER]: demo-shell/src/app/components/files/files.component.html was modified
+[NX Daemon Server] - 2023-08-01T17:21:06.997Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:21:07.002Z - Time taken for 'hash changed files from watcher' 56.06937503814697ms
+[NX Daemon Server] - 2023-08-01T17:23:52.645Z - [WATCHER]: demo-shell/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2023-08-01T17:23:59.088Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:23:59.100Z - Time taken for 'hash changed files from watcher' 40.335999965667725ms
+[NX Daemon Server] - 2023-08-01T17:24:22.835Z - [WATCHER]: demo-shell/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2023-08-01T17:24:29.295Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:24:29.322Z - Time taken for 'hash changed files from watcher' 53.00679111480713ms
+[NX Daemon Server] - 2023-08-01T17:24:34.341Z - [WATCHER]: demo-shell/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2023-08-01T17:24:40.798Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:24:40.809Z - Time taken for 'hash changed files from watcher' 54.67633414268494ms
+[NX Daemon Server] - 2023-08-01T17:24:50.508Z - [WATCHER]: demo-shell/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2023-08-01T17:24:56.959Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:24:56.965Z - Time taken for 'hash changed files from watcher' 48.633458852767944ms
+[NX Daemon Server] - 2023-08-01T17:24:59.230Z - [WATCHER]: demo-shell/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2023-08-01T17:25:05.690Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:25:05.703Z - Time taken for 'hash changed files from watcher' 57.398082971572876ms
+[NX Daemon Server] - 2023-08-01T17:25:47.106Z - [WATCHER]: demo-shell/src/app/app.routes.ts was modified
+[NX Daemon Server] - 2023-08-01T17:25:53.558Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:25:53.564Z - Time taken for 'hash changed files from watcher' 48.80200004577637ms
+[NX Daemon Server] - 2023-08-01T17:30:00.727Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T17:30:07.159Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:30:07.163Z - Time taken for 'hash changed files from watcher' 29.101417064666748ms
+[NX Daemon Server] - 2023-08-01T17:30:13.917Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T17:30:20.023Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T17:30:20.372Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:30:20.376Z - Time taken for 'hash changed files from watcher' 51.662708044052124ms
+[NX Daemon Server] - 2023-08-01T17:30:24.319Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T17:30:30.759Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:30:30.762Z - Time taken for 'hash changed files from watcher' 37.24370813369751ms
+[NX Daemon Server] - 2023-08-01T17:30:43.477Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T17:30:43.478Z - Time taken for 'total for creating and serializing project graph' 0.4576249122619629ms
+[NX Daemon Server] - 2023-08-01T17:30:43.479Z - [REQUEST]: Closed Connection to Client (43320 bytes transferred)
+[NX Daemon Server] - 2023-08-01T17:30:43.479Z - Time taken for 'total for server response' 1.3829169273376465ms
+[NX Daemon Server] - 2023-08-01T17:30:44.596Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T17:30:44.598Z - Time taken for 'total for creating and serializing project graph' 0.33704185485839844ms
+[NX Daemon Server] - 2023-08-01T17:30:44.598Z - [REQUEST]: Closed Connection to Client (43320 bytes transferred)
+[NX Daemon Server] - 2023-08-01T17:30:44.599Z - Time taken for 'total for server response' 1.9331247806549072ms
+[NX Daemon Server] - 2023-08-01T17:32:12.398Z - [WATCHER]: demo-shell/src/app.config.json was modified
+[NX Daemon Server] - 2023-08-01T17:32:12.536Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:32:12.539Z - Time taken for 'hash changed files from watcher' 34.84474992752075ms
+[NX Daemon Server] - 2023-08-01T17:32:15.478Z - [WATCHER]: demo-shell/src/app.config.json was modified
+[NX Daemon Server] - 2023-08-01T17:32:15.744Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:32:15.747Z - Time taken for 'hash changed files from watcher' 65.19187498092651ms
+[NX Daemon Server] - 2023-08-01T17:37:51.043Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T17:37:51.508Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:37:51.516Z - Time taken for 'hash changed files from watcher' 61.01937484741211ms
+[NX Daemon Server] - 2023-08-01T17:37:57.233Z - [WATCHER]: demo-shell/proxy.conf.js was modified
+[NX Daemon Server] - 2023-08-01T17:37:58.077Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:37:58.081Z - Time taken for 'hash changed files from watcher' 41.994624853134155ms
+[NX Daemon Server] - 2023-08-01T17:38:05.739Z - [WATCHER]: demo-shell/src/app.config.json was modified
+[NX Daemon Server] - 2023-08-01T17:38:07.387Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-08-01T17:38:07.390Z - Time taken for 'hash changed files from watcher' 45.25933289527893ms
+[NX Daemon Server] - 2023-08-01T17:38:21.699Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T17:38:21.700Z - Time taken for 'total for creating and serializing project graph' 0.3092918395996094ms
+[NX Daemon Server] - 2023-08-01T17:38:21.700Z - [REQUEST]: Closed Connection to Client (43320 bytes transferred)
+[NX Daemon Server] - 2023-08-01T17:38:21.701Z - Time taken for 'total for server response' 1.792832851409912ms
+[NX Daemon Server] - 2023-08-01T17:38:21.849Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-08-01T17:38:21.849Z - Time taken for 'total for creating and serializing project graph' 0.3008749485015869ms
+[NX Daemon Server] - 2023-08-01T17:38:21.850Z - [REQUEST]: Closed Connection to Client (43320 bytes transferred)
+[NX Daemon Server] - 2023-08-01T17:38:21.850Z - Time taken for 'total for server response' 0.8560829162597656ms
+[NX Daemon Server] - 2023-08-02T04:16:31.162Z - [WATCHER]: Unsubscribed from changes within: /Users/greg.bousley/Documents/alfresco/CoffeeADFDemoshell
+[NX Daemon Server] - 2023-08-02T04:16:31.164Z - Server stopped because: "10800000ms of inactivity"
